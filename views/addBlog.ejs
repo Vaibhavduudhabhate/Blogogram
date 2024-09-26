@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head') %>
+    <title>BLOGOGRAM</title>
+</head>
+<body>
+    <%- include('./partials/nav') %>
+
+    <div class="container mt-4">
+        <form>
+            <div class="mb-3">
+              <label for="title" class="form-label">Title</label>
+              <input type="text" class="form-control" name="title" id="title" aria-describedby="title">
+              <div id="title" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+        </form>    
+    </div>
+
+    <%- include('./partials/scripts') %>
+</body>
+</html>
